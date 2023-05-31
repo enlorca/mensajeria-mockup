@@ -1,0 +1,1 @@
+Mockup de sistema de mensajería según maqueta. Mayo 2023

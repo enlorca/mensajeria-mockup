@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.contactoscard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+}
+
+.navbar__usuario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 17px;
+}
+
+.datos__usuario {
+  display: flex;
+  padding-left: 17px;
+}
+
+.datos__usuario img {
+  width: 36px;
+  height: 36px;
+}
+
+.estado__usuario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 14px;
+  padding-left: 10px;
+  padding-bottom: 14px;
+}
+
+.estado__usuario2 {
+  padding-left: 16px;
+  padding-bottom: 3px;
+}
+
+.texto__usuario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.nuevo__chat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.texto__chat {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-left: 16px;
+}
+
+.chat__contacto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.texto__chat p {
+  padding-bottom: 6px;
+}
+
+.datos__chat {
+  display: flex;
+  padding-left: 17px;
+}
+
+.datos__chat img {
+  width: 42px;
+  height: 42px;
+}
+
+.mensajes {
+  display: flex;
+  width: 75%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f8f8f8;
+  padding-bottom: 28px;
+  border: 1px solid #bec1bb;
+}
+
+.mensajes img {
+  width: 390px;
+  height: 380px;
+  padding-bottom: 52px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  padding-bottom: 28px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  padding-right: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+i {
+  font-size: 16px;
+  color: #959797;
+  padding-right: 20px;
+  padding-bottom: 4px;
+}
+
+.card img {
+  border-radius: 50%;
+  border: 1px solid #bec1bb;
+}
+
+.card {
+  border: 1px solid #bec1bb;
+}
+
+.datos__usuario p {
+  font-size: 14px;
+  color: #959797;
+}
+
+.boton__chat {
+  background-color: #a491d2;
+  color: white;
+  padding: 15px 72px;
+}
+
+.boton__chat:hover {
+  background-color: #cdc3e6;
+  color: white;
+}
+
+.boton__chat:focus {
+  background-color: #bec1bb;
+  color: white;
+}
+
+.chat__contacto {
+  flex-basis: 3rem;
+}
